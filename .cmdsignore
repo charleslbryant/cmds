@@ -1,0 +1,90 @@
+# CMDS Ignore File
+# Defines files and patterns to exclude when syncing from development CMDS to user CMDS
+# Similar to .gitignore syntax
+
+# ===================================
+# DEVELOPMENT-SPECIFIC FILES
+# ===================================
+
+# Session context files (specific to our development sessions)
+/docs/session-context/CURRENT_STATE.md
+/docs/session-context/NEXT_TASKS.md
+/docs/session-context/ACTIVE_SESSION.md
+
+# ===================================
+# PROJECT-SPECIFIC CUSTOMIZATIONS
+# ===================================
+
+# Our customized product and architecture docs (users should customize their own)
+/docs/product/product-vision.md
+/docs/product/product-strategy.md
+/docs/architecture/architecture.md
+
+# ===================================
+# DEVELOPMENT ARTIFACTS
+# ===================================
+
+# Our specific design documents (users don't need our internal designs)
+/docs/design/features/feat-*
+
+# Our specific ADRs (users should create their own)
+/docs/architecture/adr/adr-*
+
+# Development-specific Git artifacts
+/.git/
+/.gitignore
+.env*
+
+# IDE-specific files
+/.vscode/
+/.idea/
+/.cursor/
+*.swp
+*.swo
+*~
+
+# ===================================
+# TEMPORARY/CACHE FILES
+# ===================================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# ===================================
+# EXPERIMENTAL/WIP FEATURES
+# ===================================
+
+# Any files with "experimental" in the name
+*experimental*
+*wip*
+*draft*
+*test*
+
+# ===================================
+# WHAT GETS SYNCED
+# ===================================
+# 
+# The following WILL be synced to user CMDS:
+# - .claude/commands/ (all mode definitions)
+# - docs/rules/ (all rule files)
+# - docs/product/README.md (guidance, not customized content)
+# - docs/architecture/README.md (guidance, not customized content)
+# - docs/design/ (templates and guidance, not our specific designs)
+# - docs/session-context/README.md (guidance, not state files)
+# - docs/session-context/SESSION_HANDOFF_TEMPLATE.md (template only)
+# - README.md (project overview)
+# - CLAUDE.md (AI assistant instructions)
+# - This .cmdsignore file itself
+#
+# ===================================
+
+# Note: This file should be used by promotion scripts to selectively sync
+# only the methodology and templates, not our development-specific content
