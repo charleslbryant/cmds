@@ -2,16 +2,16 @@
 
 ## Now (Active Sprint) 
 1. [x] **Issue #3: Initialize session context files with real project information** - Replace template content with actual CMDS project state ✅
-2. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
-3. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
+2. [ ] **Issue #6: [CRD] Setup CMDS GitHub labels and apply to existing issues** - Implement complete CMDS label system from task-management.md (FOUNDATIONAL)
+3. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
+4. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
 
 ## Next (Backlog)
-1. [ ] **Issue #6: GitHub repository settings and branch protection** - Configure repo protection rules (moved from Now - less critical)
-2. [ ] **Issue #7: Create GitHub labels for issue management** - Add prd, crd, task, now, next, future labels (moved from Now)
-3. [ ] **Issue #8: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle
-4. [ ] **Issue #9: Improve begin mode context loading** - Streamline session startup and task selection process  
-5. [ ] **Issue #10: Create CMDS adoption documentation** - Getting started guides and best practices
-6. [ ] **Issue #11: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
+1. [ ] **Issue #7: GitHub repository settings and branch protection** - Configure repo protection rules (moved from Now - less critical)
+2. [ ] **Issue #8: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle
+3. [ ] **Issue #9: Improve begin mode context loading** - Streamline session startup and task selection process  
+4. [ ] **Issue #10: Create CMDS adoption documentation** - Getting started guides and best practices
+5. [ ] **Issue #11: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
 
 ## Future (Icebox)
 1. [ ] **VS Code Extension Development** - IDE integration for seamless mode switching and context management
@@ -39,20 +39,26 @@
 
 ## Task Details
 
-### Issue #4: Configure GitHub repository settings and branch protection (Priority: Now)
-- **Goal**: Set up repository protection rules and settings to enforce CMDS git workflow
-- **Approach**: Configure branch protection on main, require PR reviews, enable GitHub features
-- **Tests**: Verify protection rules prevent direct pushes to main
+### Issue #6: Setup CMDS GitHub labels and apply to existing issues (Priority: Now)
+- **Goal**: Implement complete CMDS label system from task-management.md and apply to existing issues
+- **Approach**: Create all Priority/Status/Scope/Type labels with proper colors, then label issues #1-6
+- **Command**: `gh label create` for all 18 labels from task-management.md
+- **Tests**: Verify all labels created correctly and existing issues properly categorized
 - **Estimated time**: 1 hour
 
-### Issue #5: Create GitHub labels for issue management (Priority: Now)
-- **Goal**: Add standard CMDS labels for proper issue categorization and prioritization
-- **Command**: `gh label create` for prd, crd, task, now, next, future labels
-- **Approach**: Create labels with appropriate colors and descriptions
-- **Tests**: Verify labels can be applied to issues correctly
-- **Estimated time**: 30 minutes
+### Issue #4: Kick mode git/GitHub repository setup (Priority: Now - Critical)
+- **Goal**: Fix fundamental project setup problems for new CMDS projects
+- **Approach**: Enhance kick mode to handle git init, GitHub repo creation, authentication
+- **Tests**: Test kick mode with new project setup scenarios
+- **Estimated time**: 3-4 hours
 
-### Issue #6: Validate first complete CMDS workflow cycle (Priority: Next)
+### Issue #5: Team-safe session context approach (Priority: Now - Critical)
+- **Goal**: Resolve session context conflicts for team development
+- **Approach**: Implement developer-scoped context folders with shared project state
+- **Tests**: Test approach with multiple developer scenarios
+- **Estimated time**: 2-3 hours
+
+### Issue #8: Validate first complete CMDS workflow cycle (Priority: Next)
 - **Goal**: Execute a complete begin → plan → design → dev → deliver → qa cycle to validate methodology
 - **Approach**: Use existing issues as test case, follow all CMDS rules strictly
 - **Tests**: Document workflow execution, identify any process gaps or improvements
