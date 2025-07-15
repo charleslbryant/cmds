@@ -59,8 +59,8 @@
 - **COMPLETED**: Issue #7 - Create and configure CMDS GitHub label system ✅ (PR #15 merged)
 - **COMPLETED**: Issue #8 - Apply CMDS labels to existing issues #1-6 ✅ (via merged PR)
 - **COMPLETED**: CRD #6 - Additional integration tasks created (Issues #11-13) ✅
-- **IN PROGRESS**: CRD #4 - Kick mode git/GitHub repository setup (CRITICAL) - Issue #16 completed, continuing with remaining tasks
-- **COMPLETED**: Issue #16 - Add git repository detection to kick mode (implemented with TDD approach, ready for delivery)
+- **COMPLETED**: Issue #16 - Add git repository detection to kick mode ✅ (PR #30 merged)
+- **IN PROGRESS**: CRD #4 - Kick mode git/GitHub repository setup (1/6 tasks complete)
 
 ## Next Major Features to Implement
 1. **Kick Mode Enhancement** - Automated project setup and template customization
