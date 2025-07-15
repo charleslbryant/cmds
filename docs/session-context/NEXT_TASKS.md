@@ -5,28 +5,34 @@
 2. [x] **Issue #6: [CRD] Setup CMDS GitHub labels and apply to existing issues** - Implemented task breakdown: Issues #7-10 created ✅
 3. [x] **Issue #7: Create and configure CMDS GitHub label system** - COMPLETED - Created 18 CMDS labels with proper colors ✅
 4. [x] **Issue #8: Apply CMDS labels to existing issues #1-6** - Apply proper labels to all existing issues ✅
-5. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
-6. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
+5. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - PLANNING COMPLETE: 9 implementation tasks created (Issues #16-24)
+6. [x] **Issue #16: Add git repository detection to kick mode** - COMPLETED - Git repository detection implemented in kick mode ✅
+7. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
 
 ## Next (Backlog)
-1. [ ] **Issue #9: Integrate GitHub label setup into kick mode** - Update kick mode to create labels automatically
-2. [ ] **Issue #10: Document CMDS label system usage** - Create labeling guidelines and best practices
-3. [ ] **Issue #11: Integrate GitHub label creation into kick mode** - Add label creation to kick mode workflow
-4. [ ] **Issue #12: Setup GitHub branch protection rules** - Enforce proper CMDS workflow with branch protection
-5. [ ] **Issue #13: Update dev mode to ensure CRD feature branch creation** - Auto-create feature branches in dev mode
-6. [ ] **Issue #14: [CRD] CMDS workflow supports configurable WIP limits** - Allow teams to configure work-in-progress limits
-7. [ ] **Issue #15: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle  
-8. [ ] **Issue #16: Improve begin mode context loading** - Streamline session startup and task selection process  
-9. [ ] **Issue #17: Create CMDS adoption documentation** - Getting started guides and best practices
-10. [ ] **Issue #18: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
+1. [ ] **Issue #17: Implement git repository initialization in kick mode** - (CRD #4)
+2. [ ] **Issue #18: Add GitHub repository creation functionality** - (CRD #4)
+3. [ ] **Issue #19: Implement GitHub authentication verification** - (CRD #4)
+4. [ ] **Issue #20: Add initial commit creation workflow** - (CRD #4)
+5. [ ] **Issue #22: Add repository push and verification** - (CRD #4)
+6. [ ] **Issue #9: Integrate GitHub label setup into kick mode** - Update kick mode to create labels automatically
+7. [ ] **Issue #10: Document CMDS label system usage** - Create labeling guidelines and best practices
+8. [ ] **Issue #11: Integrate GitHub label creation into kick mode** - Add label creation to kick mode workflow
+9. [ ] **Issue #12: Setup GitHub branch protection rules** - Enforce proper CMDS workflow with branch protection
+10. [ ] **Issue #13: Update dev mode to ensure CRD feature branch creation** - Auto-create feature branches in dev mode
+11. [ ] **Issue #14: [CRD] CMDS workflow supports configurable WIP limits** - Allow teams to configure work-in-progress limits
+12. [ ] **Issue #15: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle
 
 ## Future (Icebox)
-1. [ ] **VS Code Extension Development** - IDE integration for seamless mode switching and context management
-2. [ ] **CLI Tools Development** - Command-line utilities for CMDS project management and validation
-3. [ ] **Template Gallery Creation** - Curated collection of CMDS-ready project templates
-4. [ ] **Community Building** - Documentation site, contribution guidelines, and adoption tracking
-5. [ ] **Enterprise Features** - SSO integration, compliance reporting, team management
-6. [ ] **Automated Validation Tools** - CMDS compliance checking and quality metrics
+1. [ ] **Issue #21: Implement branch protection configuration** - (CRD #4 - Advanced feature)
+2. [ ] **Issue #23: Update kick mode documentation** - (CRD #4 - Documentation)
+3. [ ] **Issue #24: Create integration tests for kick mode** - (CRD #4 - Testing)
+4. [ ] **VS Code Extension Development** - IDE integration for seamless mode switching and context management
+5. [ ] **CLI Tools Development** - Command-line utilities for CMDS project management and validation
+6. [ ] **Template Gallery Creation** - Curated collection of CMDS-ready project templates
+7. [ ] **Community Building** - Documentation site, contribution guidelines, and adoption tracking
+8. [ ] **Enterprise Features** - SSO integration, compliance reporting, team management
+9. [ ] **Automated Validation Tools** - CMDS compliance checking and quality metrics
 
 ## Completed ✅
 - [x] **PRD #1: CMDS Project Foundation Setup** - 2025-07-14
