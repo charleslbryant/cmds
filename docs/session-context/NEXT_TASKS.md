@@ -4,7 +4,7 @@
 1. [x] **Issue #3: Initialize session context files with real project information** - Replace template content with actual CMDS project state ✅
 2. [x] **Issue #6: [CRD] Setup CMDS GitHub labels and apply to existing issues** - Implemented task breakdown: Issues #7-10 created ✅
 3. [x] **Issue #7: Create and configure CMDS GitHub label system** - COMPLETED - Created 18 CMDS labels with proper colors ✅
-4. [ ] **Issue #8: Apply CMDS labels to existing issues #1-6** - Apply proper labels to all existing issues (READY - depends on #7)
+4. [x] **Issue #8: Apply CMDS labels to existing issues #1-6** - Apply proper labels to all existing issues ✅
 5. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
 6. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
 
@@ -14,10 +14,11 @@
 3. [ ] **Issue #11: Integrate GitHub label creation into kick mode** - Add label creation to kick mode workflow
 4. [ ] **Issue #12: Setup GitHub branch protection rules** - Enforce proper CMDS workflow with branch protection
 5. [ ] **Issue #13: Update dev mode to ensure CRD feature branch creation** - Auto-create feature branches in dev mode
-6. [ ] **Issue #14: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle  
-7. [ ] **Issue #15: Improve begin mode context loading** - Streamline session startup and task selection process  
-8. [ ] **Issue #16: Create CMDS adoption documentation** - Getting started guides and best practices
-9. [ ] **Issue #17: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
+6. [ ] **Issue #14: [CRD] CMDS workflow supports configurable WIP limits** - Allow teams to configure work-in-progress limits
+7. [ ] **Issue #15: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle  
+8. [ ] **Issue #16: Improve begin mode context loading** - Streamline session startup and task selection process  
+9. [ ] **Issue #17: Create CMDS adoption documentation** - Getting started guides and best practices
+10. [ ] **Issue #18: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
 
 ## Future (Icebox)
 1. [ ] **VS Code Extension Development** - IDE integration for seamless mode switching and context management
