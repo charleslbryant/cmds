@@ -34,15 +34,35 @@
   - Depends on #[previous-task-number] (if applicable)"
   ```
 
-## Task Prioritization
-
-### Label System
+##  Label System
+**Priority**:
 - **now**: Current active work (limit 1-2 tasks)
 - **next**: Ready for work after current tasks
 - **future**: Planned but not yet ready
 
+**Status**:
+- **to-do**: Planned but not yet ready
+- **in-progress**: Current active work (limit 1-2 tasks)
+- **on-hold**: Ready for work after current tasks
+- **blocked**: Blocked by another task or external dependency
+- **done**: Completed
+- **cancelled**: Cancelled
+
+**Scope**:
+- **prd**: Product requirement document (feature)
+- **crd**: Change request document (user story)
+- **task**: Task issue (task)
+
+**Type**:
+- **feature**: New feature development
+- **bug**: Bug fix
+- **documentation**: Documentation update
+- **refactor**: Code refactoring
+- **test**: Test development
+- **other**: Other type of task
+
 ### Branch Strategy
-- **One branch per CRD**: `feature/crd-[number]-[description]`
+- **One branch per CRD**: `feature/crd-[issue-number]-[description]`
 - **All CRD tasks share the same branch**
 - **Complete CRD before merging branch**
 

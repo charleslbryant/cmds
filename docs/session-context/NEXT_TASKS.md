@@ -2,16 +2,20 @@
 
 ## Now (Active Sprint) 
 1. [x] **Issue #3: Initialize session context files with real project information** - Replace template content with actual CMDS project state ✅
-2. [ ] **Issue #6: [CRD] Setup CMDS GitHub labels and apply to existing issues** - Implement complete CMDS label system from task-management.md (FOUNDATIONAL)
-3. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
-4. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
+2. [x] **Issue #6: [CRD] Setup CMDS GitHub labels and apply to existing issues** - Implemented task breakdown: Issues #7-10 created ✅
+3. [ ] **Issue #7: Create and configure CMDS GitHub label system** - SELECTED FOR DEVELOPMENT - Create 18 CMDS labels with proper colors (FOUNDATIONAL)
+4. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
+5. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
 
 ## Next (Backlog)
-1. [ ] **Issue #7: GitHub repository settings and branch protection** - Configure repo protection rules (moved from Now - less critical)
-2. [ ] **Issue #8: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle
-3. [ ] **Issue #9: Improve begin mode context loading** - Streamline session startup and task selection process  
-4. [ ] **Issue #10: Create CMDS adoption documentation** - Getting started guides and best practices
-5. [ ] **Issue #11: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
+1. [ ] **Issue #8: Apply CMDS labels to existing issues #1-6** - Apply proper labels once label system is created  
+2. [ ] **Issue #9: Integrate GitHub label setup into kick mode** - Update kick mode to create labels automatically
+3. [ ] **Issue #10: Document CMDS label system usage** - Create labeling guidelines and best practices
+4. [ ] **Issue #11: GitHub repository settings and branch protection** - Configure repo protection rules (moved from Now - less critical)
+5. [ ] **Issue #12: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle  
+6. [ ] **Issue #13: Improve begin mode context loading** - Streamline session startup and task selection process  
+7. [ ] **Issue #14: Create CMDS adoption documentation** - Getting started guides and best practices
+8. [ ] **Issue #15: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
 
 ## Future (Icebox)
 1. [ ] **VS Code Extension Development** - IDE integration for seamless mode switching and context management
