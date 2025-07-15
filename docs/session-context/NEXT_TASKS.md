@@ -1,16 +1,17 @@
 # Next Tasks Queue
 
-## Now (Active Sprint)
+## Now (Active Sprint) 
 1. [x] **Issue #3: Initialize session context files with real project information** - Replace template content with actual CMDS project state ✅
-2. [ ] **Issue #4: Configure GitHub repository settings and branch protection** - Set up branch protection rules and repository settings (CREATE)
-3. [ ] **Issue #5: Create GitHub labels for issue management** - Add prd, crd, task, now, next, future labels (CREATE)
+2. [ ] **Issue #4: [CRD] Kick mode should handle git/GitHub repository setup** - Fix fundamental project setup problems for new CMDS projects (CRITICAL)
+3. [ ] **Issue #5: [CRD] Session context files need team-safe approach** - Resolve session context conflicts for team development (CRITICAL)
 
 ## Next (Backlog)
-1. [ ] **Issue #6: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle
-2. [ ] **Issue #7: Enhance kick mode for project setup automation** - Improve project initialization and template customization
-3. [ ] **Issue #8: Improve begin mode context loading** - Streamline session startup and task selection process
-4. [ ] **Issue #9: Create CMDS adoption documentation** - Getting started guides and best practices
-5. [ ] **Issue #10: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
+1. [ ] **Issue #6: GitHub repository settings and branch protection** - Configure repo protection rules (moved from Now - less critical)
+2. [ ] **Issue #7: Create GitHub labels for issue management** - Add prd, crd, task, now, next, future labels (moved from Now)
+3. [ ] **Issue #8: Validate first complete CMDS workflow cycle** - Execute begin → plan → design → dev → deliver → qa cycle
+4. [ ] **Issue #9: Improve begin mode context loading** - Streamline session startup and task selection process  
+5. [ ] **Issue #10: Create CMDS adoption documentation** - Getting started guides and best practices
+6. [ ] **Issue #11: Design tooling integration roadmap** - Plan IDE extensions and CLI tools
 
 ## Future (Icebox)
 1. [ ] **VS Code Extension Development** - IDE integration for seamless mode switching and context management
