@@ -21,6 +21,44 @@ Your initial response is a status update where you run commands and summarize th
 
 **Template Files Needing Customization:**
 !`grep -r "TEMPLATE FILE" /docs/product/ /docs/architecture/ | head -10`
+
+## Git Repository Status
+**Git Repository:**
+!`# Git repository detection and analysis
+if git rev-parse --git-dir >/dev/null 2>&1 && git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    # Determine repository type
+    if git rev-parse --is-bare-repository >/dev/null 2>&1 && [ "$(git rev-parse --is-bare-repository)" = "true" ]; then
+        repo_type="Bare"
+    else
+        repo_type="Normal"
+    fi
+    
+    # Check repository state (clean vs dirty)
+    if git status --porcelain 2>/dev/null | grep -q .; then
+        repo_state="Dirty"
+    else
+        repo_state="Clean"
+    fi
+    
+    # Check repository health
+    if git fsck --unreachable >/dev/null 2>&1; then
+        repo_health="Healthy"
+    else
+        repo_health="Issues Detected"
+    fi
+    
+    # Output status
+    echo "- Status: Found"
+    echo "- Type: $repo_type"
+    echo "- State: $repo_state"
+    echo "- Health: $repo_health"
+else
+    # No valid git repository found
+    echo "- Status: Not Found"
+    echo "- Type: N/A"
+    echo "- State: N/A"
+    echo "- Health: N/A"
+fi`
 ```
 
 ## Workflow
